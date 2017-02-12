@@ -1,0 +1,11 @@
+{
+  "name": "cnn-clock",
+  "version": "0.0.1",
+  "main": "generateImages.js",
+  "repository": "git@github.com:iver56/cnn-clock.git",
+  "author": "Iver Jordal",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^1.6.2"
+  }
+}
