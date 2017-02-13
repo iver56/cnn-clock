@@ -9,8 +9,8 @@ keras_backend.set_image_dim_ordering('th')
 model = load_model('clock.h5')
 
 
-validation_dir = os.path.join('data', 'validation')
-x_validation, y_validation = get_images(validation_dir)
+image_dir = os.path.join('data', 'validation')
+x_validation, y_validation = get_images(image_dir)
 
 print type(x_validation)
 print type(y_validation)
