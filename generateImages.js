@@ -91,7 +91,7 @@ for (let i = 0; i < numImages; i++) {
     continue;
   }
 
-  let canvas = new Canvas(128, 128);
+  let canvas = new Canvas(32, 32);
   let ctx = canvas.getContext("2d");
   let radius = canvas.height / 2;
   ctx.translate(radius, radius);

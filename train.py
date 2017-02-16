@@ -28,13 +28,13 @@ x_validation, y_validation = get_images(validation_dir)
 num_train_samples = len(x_train)
 num_validation_samples = len(x_validation)
 
-img_width = img_height = 128
+img_width = img_height = 32
 num_color_channels = 1  # 1 means greyscale
 
 print 'num_train_samples', num_train_samples
 print 'num_validation_samples', num_validation_samples
 
-model = models.get_ann_model(num_color_channels, img_width, img_height)
+model = models.get_cnn_model(num_color_channels, img_width, img_height)
 print(model.summary())
 
 model.fit(
